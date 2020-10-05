@@ -39,10 +39,6 @@ class DetailViewController: UIViewController {
                            forCellReuseIdentifier: "DescriptionDetailTableViewCell")
         tableView.delegate = self
         tableView.dataSource = self
-        
-        
-        
-        
         tableView.estimatedRowHeight = 350
         tableView.rowHeight = UITableView.automaticDimension
         
@@ -50,14 +46,6 @@ class DetailViewController: UIViewController {
         tableView.reloadData()
     }
 }
-
-
-
-
-
-
-
-
 
 // MARK: - DetailViewControllerInterface
 

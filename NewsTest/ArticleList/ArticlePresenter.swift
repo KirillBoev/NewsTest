@@ -45,7 +45,6 @@ class ArticlePresenter: ArticlePresenterInterface {
                         otherNews.append(articleViewModel)
                     }
                     counter = counter + 1
-                    
                 }
                 
                 self.viewController?.displayNews(topNews: topNews, otherNews: otherNews)

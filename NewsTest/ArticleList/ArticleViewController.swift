@@ -50,14 +50,6 @@ class ArticleViewController: UIViewController, TopNewsTableViewCellDelegate {
     }
 }
 
-
-
-
-
-
-
-
-
 // MARK: - ArticleViewControllerInterface
 
 extension ArticleViewController: ArticleViewControllerInterface {
@@ -88,12 +80,9 @@ extension ArticleViewController: UITableViewDelegate, UITableViewDataSource {
             cell.update(articles: topNews)
             cell.delegate = self
             
-            
             return cell
         } else {let cell = tableView.dequeueReusableCell(withIdentifier: "NewsTableViewCell", for: indexPath) as! NewsTableViewCell
             cell.update(article: otherNews[indexPath.row])
-            
-            
             
             return cell
         }

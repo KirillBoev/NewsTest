@@ -15,11 +15,9 @@ class ArticleConfigurator {
         let router = ArticleRouter()
         
         viewController.presenter = presenter
-        
         presenter.viewController = viewController
         presenter.interactor = interactor
         presenter.router = router
-        
         router.viewController = viewController
     }
 }

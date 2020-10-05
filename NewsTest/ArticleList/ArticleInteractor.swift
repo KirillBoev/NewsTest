@@ -31,7 +31,6 @@ class ArticleInteractor: ArticleInteractorInterface {
                     } catch {
                         print("DECODING ERROR: \(error)")
                         compliteon(nil)
-                        
                     }
                 }else {
                     compliteon(nil)
